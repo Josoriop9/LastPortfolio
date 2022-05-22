@@ -62,9 +62,8 @@ h1 {
 }
 
 .textmoto{
-  color:rgba(213, 200, 218, 0.993);
-  font-size: 6vw;
-  font-weight: bold;
+  font-weight: bold;  
+  color:rgba(0, 0, 0, 0.993);
 }
 
 .textmoto1{
@@ -74,21 +73,27 @@ h1 {
 
 .textspecialize{ 
   color:rgba(0, 0, 0, 0.993);
-  font-size: 5.5vw;
+  font-size: 8vw;
   font-weight: bolder;
 }
 
+@media (max-width: 700px) {
+  .textspecialize {
+    font-size: 11vw;
+  }
+}
+
 .textspecialize1{ 
-  font-size: 1.9vw; 
+  font-size: 2.4vw; 
   color:rgba(21, 20, 20, 0.993);
   align-items: center;
   align-self: center;
   align-content: center;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 700px) {
   .textspecialize1 {
-    font-size: 3vw;
+    font-size: 4.9vw;
   }
 }
 
@@ -106,7 +111,7 @@ h1 {
   font-weight: bold;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 700px) {
   .textservices1 {
     font-size: 3vw;
   }
@@ -121,15 +126,21 @@ h1 {
   margin-bottom: 5%
 }
 
+@media (max-width: 700px) {
+  .textprojects {
+    font-size: 11vw;
+  }
+}
+
 .textprojects1{ 
   color:rgba(255, 255, 255, 0.993);
   font-size: 1.9vw;
   position: relative; 
 }
 
-@media (max-width: 900px) {
+@media (max-width: 700px) {
   .textprojects1 {
-    font-size: 3vw;
+    font-size: 4.9vw;
   }
 }
 
