@@ -512,8 +512,9 @@ body {
 @media (max-width: 900px) {
   .row {
     display: grid;
+    grid-gap: 19px;
     position: relative;
-    right: -35%;
+    right: -35%;   
   }
 }
 
@@ -574,8 +575,6 @@ body {
   width: calc((100% - 2 * 6rem) / 3);
 }
 
-
-
 /*CARDS SPECIALIZE*/
 
 .row12{
@@ -586,16 +585,23 @@ body {
 }
 
 @media (max-width: 992px) {
+  #textinside {
+    text-align: center;
+  }
+}
+
+@media (max-width: 992px) {
   .row12 {
-    display: flexbox;
+    display: flex;
+    gap: 3%;
   }
 }
 
 @media (max-width: 510px) {
   .row12 {
-    display: inline-table;
-    position: relative;
-    right: -20%;
+    display: grid;
+    grid-gap: 14px;
+    margin-bottom: 250%;
   }
 }
 
@@ -966,7 +972,7 @@ body {
 	padding: 0;
 	margin: auto;	
   right: -15px;
-  margin-top: 7%;
+  margin-top: 1%;
 }
 
 .btn:hover{transform: translateY(-4px);}
